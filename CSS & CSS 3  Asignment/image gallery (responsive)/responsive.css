@@ -179,13 +179,15 @@
     .last-line ul {
         display: grid;
         margin-left: 0;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(4, 1fr);
         /* margin-bottom: 50px; */
+        margin-left: 100px;
     }
 
     .last-line ul img {
-        height: 150px;
-        width: 150px;
+        height: 170px;
+        width: 190px;
         margin-bottom: 100px;
+        margin: auto;
     }
 }
